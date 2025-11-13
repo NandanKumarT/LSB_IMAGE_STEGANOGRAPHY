@@ -1,0 +1,53 @@
+/*Name:Nandan Kumar T
+Date:13/11/2025
+Description:LSB IMAGE STEGANOGRAPHY*/
+
+SAMPLE INPUT GIVEN THOROUGH CLA: 
+
+For Encoding: -> ./a.out -e beautiful.bmp secret.txt 
+
+SAMPLE OUTPUT :
+
+INFO:Operation is Encoding
+INFO:Output image not provided. Using default name: stego.bmp
+INFO:opening the files for Encoding
+
+==============INFO: ## Encoding Procedure Started ##=================
+width = 1024
+height = 768
+total image size =2359296
+magic string size= 2
+secret file extension size=4
+size of secret file = 24
+Total size of encoding data = 304
+INFO:Capacity of image is suffieciant
+INFO:Copying of 54 byte data is done
+INFO:Encoding of magic string to image is done
+INFO:Encoding of file extension size to image is done
+INFO:Encoding of file extension to image is done
+INFO:Encoding of secret file size to image is done
+INFO:Encoding of secret data to image is done
+INFO:copying the remaining the data  of src image is done
+------------------------Encoding Operation Done-------------------------
+
+SAMPLE INPUT GIVEN THOROUGH CLA: 
+
+For decoding: -> ./a.out -d stego.bmp
+
+
+SAMPLE OUTPUT :
+
+INFO:Operation is decoding
+INFO:opening the files for decoding
+
+==============INFO: ## decoding Procedure Started ##=================
+INFO:skipping 54 bytes of data is done
+INFO:decoding of magic string from image is done
+INFO:Decoding of file extension size from image is done
+INFO:Encoding of file extension to image is done
+INFO:Output file not provided. Using default name: output
+INFO:opening the secret output files for decoding the data
+INFO:decoding of secret file size from image is done
+INFO:decoding of secret data from image to output file is done
+------------------------Decoding Operation Done-------------------------
+nandan@NANDAN-LAPTOP-VVBHC8ER:/mnt/c/Users/NANDAN KUMAR/Documents/LSB_IMAGE_STEGANOGRAPHY$ 
