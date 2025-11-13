@@ -33,3 +33,13 @@ To demonstrate the concept of **digital steganography**, where information is co
 ---
 
 ## 📁 Project Structure
+LSB_IMAGE_STEGANOGRAPHY/
+│
+├── encode.c # Handles encoding (hiding) logic
+├── decode.c # Handles decoding (extracting) logic
+├── encode.h # Header for encoding functions
+├── decode.h # Header for decoding functions
+├── common.h # Shared constants and function prototypes
+├── main.c # Entry point, handles user input and mode selection
+├── Makefile # Compilation script
+└── README.md # Project documentation
